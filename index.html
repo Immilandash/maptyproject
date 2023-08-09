@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      defer
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Index</title>
+  </head>
+  <body>
+    <section class="main" id="map"></section>
+    <section class="footer">
+      <div class="footer__search">
+        <img
+          class="search__location"
+          src="https://static-00.iconduck.com/assets.00/location-position-icon-1640x2048-6jqx3f7e.png"
+          alt=""
+        />
+        <input
+          class="footer__search__search"
+          type="text"
+          placeholder="Search here"
+        />
+        <img
+          class="search__voice"
+          src="https://www.pngkey.com/png/full/302-3028803_voice-icon-png-voice-symbol.png"
+          alt=""
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+          alt=""
+          class="search__profile"
+        />
+      </div>
+      <form action="" class="form">
+        <div class="option">
+          <label for="languages">Type: </label>
+          <select name="" id="languages">
+            <option value="">Type..</option>
+            <option value="">Type1..</option>
+            <option value="">Type2..</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="languages">Distance: </label>
+          <input type="text" name="" id="input" />
+        </div>
+
+        <div>
+          <label for="languages">Duration: </label>
+          <input type="text" name="" id="input" />
+        </div>
+
+        <div>
+          <label for="languages">Cadence: </label>
+          <input type="text" name="" id="input" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
